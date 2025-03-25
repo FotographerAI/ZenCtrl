@@ -3,25 +3,13 @@
 **An all-in-one, control framework for unified visual content creation using GenAI.**  
 Generate multi-view, diverse-scene, and task-specific high-resolution images from a single subject image—without fine-tuning.
 
-<!-- <img src="./assets/" /> -->
-
-<p align="center">
-  <a href="https://huggingface.co/YOUR_ORG/ZenCtrl" name="huggingface_model_link" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace Model">
-  </a>
-  <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl" name="huggingface_space_link" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space">
-  </a>
-  <a href="https://discord.gg/yourdiscord" name="discord_link" style="text-decoration:none;" >
-    <img src="https://img.shields.io/badge/Discord-Join-7289da.svg?logo=discord" alt="Discord">
-  </a>
-  <a href="https://fotographer.ai/zenctrl" name="lp_link" style="text-decoration:none;">
-    <img src="https://img.shields.io/badge/Website-Landing_Page-blue" alt="LP">
-  </a>
-  <a href="https://twitter.com/your_twitter_account" name="twitter_link" style="text-decoration:none;">
-    <img src="https://img.shields.io/twitter/follow/FotographerAI?style=social" alt="Twitter">
-  </a>
-</p>
+<div align="center">
+  <a href="https://huggingface.co/YOUR_ORG/ZenCtrl" name="huggingface_model_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace Model"></a>
+  <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl" name="huggingface_space_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space"></a>
+  <a href="https://discord.gg/yourdiscord" name="discord_link"><img src="https://img.shields.io/badge/Discord-Join-7289da.svg?logo=discord" alt="Discord"></a>
+  <a href="https://fotographer.ai/zenctrl" name="lp_link"><img src="https://img.shields.io/badge/Website-Landing_Page-blue" alt="LP"></a>
+  <a href="https://twitter.com/your_twitter_account" name="twitter_link"><img src="https://img.shields.io/twitter/follow/FotographerAI?style=social" alt="Twitter"></a>
+</div>
 
 ---
 
