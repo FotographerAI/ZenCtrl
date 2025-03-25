@@ -1,29 +1,27 @@
 # ZenCtrl
 
-**An all-in-one,  control framework for unified visual content creation using GenAI.**  
+**An all-in-one, control framework for unified visual content creation using GenAI.**  
 Generate multi-view, diverse-scene, and task-specific high-resolution images from a single subject image—without fine-tuning.
 
 <!-- <img src="./assets/" /> -->
 
-
 <p align="center">
-  <a href="https://huggingface.co/YOUR_ORG/ZenCtrl">
+  <a href="https://huggingface.co/YOUR_ORG/ZenCtrl" name="huggingface_model_link" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace Model">
   </a>
-  <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl">
+  <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl" name="huggingface_space_link" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space">
   </a>
-  <a href="https://discord.gg/yourdiscord">
+  <a href="https://discord.gg/yourdiscord" name="discord_link" style="text-decoration:none;" >
     <img src="https://img.shields.io/badge/Discord-Join-7289da.svg?logo=discord" alt="Discord">
   </a>
-  <a href="https://fotographer.ai/zenctrl">
+  <a href="https://fotographer.ai/zenctrl" name="lp_link" style="text-decoration:none;">
     <img src="https://img.shields.io/badge/Website-Landing_Page-blue" alt="LP">
   </a>
-  <a href="https://twitter.com/your_twitter_account">
+  <a href="https://twitter.com/your_twitter_account" name="twitter_link" style="text-decoration:none;">
     <img src="https://img.shields.io/twitter/follow/FotographerAI?style=social" alt="Twitter">
   </a>
 </p>
-
 
 ---
 
@@ -43,23 +41,27 @@ ZenCtrl is based on OminiControl but enhanced with more fine-grained control, co
 ## 🛠 Toolkit Components
 
 ### 🧹 Preprocessing
+
 - Background removal
 - Matting
 - Reshaping
 - Segmentation
 
 ### 🎮 Control Models (control soon)
+
 - Shape (Canny, HED, Scribble, Depth)
 - Pose (OpenPose, DensePose)
 - Mask control
 - Camera/View control
 
 ### 🎨 Post-processing (coming soon)
-- Deblurring 
+
+- Deblurring
 - Color fixing
 - Natural blending
 
 ### ✏️ Editing Models (coming soon)
+
 - Inpainting (removal, masked editing, replacement)
 - Outpainting
 - Transformation / Motion
@@ -116,6 +118,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 | ![](./assets/) | ![](./assets/) |
 | ![](./assets/) | ![](./assets/d) |
 -->
+
 ---
 
 ## 🔧 Models (Initial Weights Released)
@@ -141,7 +144,6 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 3. Performance with **illustrations** is currently limited.
 4. The models were **not trained on large-scale or highly diverse datasets** yet — we plan to improve quality and variation by training on larger and more diverse datasets, especially for **illustration and stylized content**.
 5. Video support and the full **agentic task pipeline** are still under development.
-
 
 ---
 
