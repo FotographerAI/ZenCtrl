@@ -26,7 +26,7 @@ ZenCtrl is based on OminiControl but enhanced with more fine-grained control, co
 
 ---
 
-## 🛠 Toolkit Components
+## 🛠 Toolkit Components (coming soon)
 
 ### 🧹 Preprocessing
 
@@ -35,20 +35,20 @@ ZenCtrl is based on OminiControl but enhanced with more fine-grained control, co
 - Reshaping
 - Segmentation
 
-### 🎮 Control Models (control soon)
+### 🎮 Control Models 
 
 - Shape (Canny, HED, Scribble, Depth)
 - Pose (OpenPose, DensePose)
 - Mask control
 - Camera/View control
 
-### 🎨 Post-processing (coming soon)
+### 🎨 Post-processing 
 
 - Deblurring
 - Color fixing
 - Natural blending
 
-### ✏️ Editing Models (coming soon)
+### ✏️ Editing Models 
 
 - Inpainting (removal, masked editing, replacement)
 - Outpainting
@@ -150,8 +150,8 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🤝 Join the Community
 
-- 💬 [Discord](https://discord.gg/YOUR_INVITE) – share ideas and feedback
-- 🌐 [Landing Page](https://fotographer.ai/zenctrl)
+- 💬 [Discord](https://discord.com/invite/b9RuYQ3F8k) – share ideas and feedback
+- 🌐 [Landing Page](https://fotographer.ai)
 - 🧪 [Try on Hugging Face](https://huggingface.co/spaces/YOUR_ORG/ZenCtrl)
 <!-- - 🧠 [Blog]() -->
 
