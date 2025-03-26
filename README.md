@@ -162,9 +162,9 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## Related projects
 
-1. [Personalize-anything]https://github.com/fenghora/personalize-anything
-2. [OminiControl]https://github.com/Yuanshi9815/OminiControl
-3. [diffusion-self-distillation]https://github.com/primecai/diffusion-self-distillation
+1. [Personalize-anything] (https://github.com/fenghora/personalize-anything)
+2. [OminiControl] (https://github.com/Yuanshi9815/OminiControl)
+3. [diffusion-self-distillation] (https://github.com/primecai/diffusion-self-distillation)
 
 
 ---
