@@ -1,4 +1,15 @@
-# ZenCtrl
+<div align="center">
+  <a href="https://fotographer.ai/">
+    <picture>
+      <source media="(max-width: 424px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_sm.avif" type="image/avif">
+      <source media="(min-width: 425px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.avif" type="image/avif">
+      <source media="(max-width: 424px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_sm.webp" type="image/webp">
+      <source media="(min-width: 425px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.webp" type="image/webp">
+      <img alt="ZenCtrl Banner" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_lg.png" />
+    </picture>
+  </a>
+  <h1>ZenCtrl</h1>
+</div>
 
 **An all-in-one, control framework for unified visual content creation using GenAI.**  
 Generate multi-view, diverse-scene, and task-specific high-resolution images from a single subject image—without fine-tuning.
