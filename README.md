@@ -5,7 +5,7 @@
       <source media="(min-width: 425px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.avif" type="image/avif">
       <source media="(max-width: 424px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_sm.webp" type="image/webp">
       <source media="(min-width: 425px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.webp" type="image/webp">
-      <img alt="ZenCtrl Banner" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_lg.png" />
+      <img alt="ZenCtrl Banner" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.png" />
     </picture>
   </a>
   <h1>ZenCtrl</h1>
