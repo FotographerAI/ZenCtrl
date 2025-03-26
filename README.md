@@ -113,7 +113,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
   <img src='https://storage.googleapis.com/fotographer-cdn/assets/github/im1.avif' width='48%'/>
   <img src='https://storage.googleapis.com/fotographer-cdn/assets/github/im2.avif' width='48%' />
   <img src='https://storage.googleapis.com/fotographer-cdn/assets/github/im3.avif' width='48%' />
-  <img src='https://storage.googleapis.com/fotographer-cdn/assets/github/im4.avif' width='48%' />
+  <img src='https://storage.googleapis.com/fotographer-cdn/assets/github/im4_1.avif' width='48%' />
 </div>
 
 > 🧪 Try it now on [Hugging Face Space](https://huggingface.co/spaces/YOUR_ORG/ZenCtrl)
