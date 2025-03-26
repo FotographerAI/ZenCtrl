@@ -4,8 +4,8 @@
 Generate multi-view, diverse-scene, and task-specific high-resolution images from a single subject image—without fine-tuning.
 
 <div align="center">
-  <a href="https://huggingface.co/YOUR_ORG/ZenCtrl" name="huggingface_model_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace Model"></a>
-  <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl" name="huggingface_space_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space"></a>
+  <a href="https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights" name="huggingface_model_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace Model"></a>
+  <!-- <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl" name="huggingface_space_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space"></a> -->
   <a href="https://discord.com/invite/b9RuYQ3F8k" name="discord_link"><img src="https://img.shields.io/badge/Discord-Join-7289da.svg?logo=discord" alt="Discord"></a>
   <a href="https://fotographer.ai/" name="lp_link"><img src="https://img.shields.io/badge/Website-Landing_Page-blue" alt="LP"></a>
   <a href="https://x.com/FotographerAI" name="twitter_link"><img src="https://img.shields.io/twitter/follow/FotographerAI?style=social" alt="X"></a>
@@ -35,20 +35,20 @@ ZenCtrl is based on OminiControl but enhanced with more fine-grained control, co
 - Reshaping
 - Segmentation
 
-### 🎮 Control Models 
+### 🎮 Control Models
 
 - Shape (Canny, HED, Scribble, Depth)
 - Pose (OpenPose, DensePose)
 - Mask control
 - Camera/View control
 
-### 🎨 Post-processing 
+### 🎨 Post-processing
 
 - Deblurring
 - Color fixing
 - Natural blending
 
-### ✏️ Editing Models 
+### ✏️ Editing Models
 
 - Inpainting (removal, masked editing, replacement)
 - Outpainting
@@ -111,17 +111,11 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🔧 Models (Initial Weights Released)
 
-<!--
-## 🔧 Models (Initial Weights Released)
-
-| Type                | Name            | Base        | Resolution | Description                         |
-|---------------------|-----------------|-------------|------------|-------------------------------------|
-| Bg generation Model       | `tbd`   | FLUX.1      | 1024x1024   | Core model for subject-driven gen   |
-| Bg generation + Canny     | `tbd`   | FLUX.1      | 1024x1024   | Enhanced background control         |
-| Deblurring Model    | `tbd`     | OminiControl    | 1024x1024   | Quality recovery post-generation    |
-
----
--->
+| Type                  | Name  | Base         | Resolution | Description                       | links                                           |
+| --------------------- | ----- | ------------ | ---------- | --------------------------------- | ----------------------------------------------- |
+| Bg generation Model   | `tbd` | FLUX.1       | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
+| Bg generation + Canny | `tbd` | FLUX.1       | 1024x1024  | Enhanced background control       | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
+| Deblurring Model      | `tbd` | OminiControl | 1024x1024  | Quality recovery post-generation  | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
 
 ---
 
@@ -152,7 +146,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 - 💬 [Discord](https://discord.com/invite/b9RuYQ3F8k) – share ideas and feedback
 - 🌐 [Landing Page](https://fotographer.ai)
-- 🧪 [Try on Hugging Face](https://huggingface.co/spaces/YOUR_ORG/ZenCtrl)
+- 🧪 [Try it now on Hugging Face Space (release on 2025/03/28 PST)](https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights)
 <!-- - 🧠 [Blog]() -->
 
 ---
