@@ -131,9 +131,9 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 | Type                  | Name  | Base         | Resolution | Description                       | links                                           |
 | --------------------- | ----- | ------------ | ---------- | --------------------------------- | ----------------------------------------------- |
-| Bg generation Model   | `tbd` | FLUX.1       | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
-| Bg generation + Canny | `tbd` | FLUX.1       | 1024x1024  | Enhanced background control       | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
-| Deblurring Model      | `tbd` | OminiControl | 1024x1024  | Quality recovery post-generation  | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
+| Bg generation Model   | `tbd` | Flux schnell        | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
+| Bg generation + Canny | `tbd` | Flux schnell       | 1024x1024  | Enhanced background control       | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
+| Deblurring Model      | `tbd` | Omini Cintrol | 1024x1024  | Quality recovery post-generation  | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
 
 ---
 
@@ -160,11 +160,20 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ---
 
+## Related projects
+
+1. [Personalize-anything]https://github.com/fenghora/personalize-anything
+2. [OminiControl]https://github.com/Yuanshi9815/OminiControl
+3. [diffusion-self-distillation]https://github.com/primecai/diffusion-self-distillation
+
+
+---
+
 ## 🤝 Join the Community
 
 - 💬 [Discord](https://discord.com/invite/b9RuYQ3F8k) – share ideas and feedback
 - 🌐 [Landing Page](https://fotographer.ai)
-- 🧪 [Try it now on Hugging Face Space (release on 2025/03/28 PST)](https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights)
+- 🧪 [Try it now on Hugging Face Space](https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights)
 <!-- - 🧠 [Blog]() -->
 
 ---
