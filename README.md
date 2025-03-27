@@ -16,7 +16,7 @@ Generate multi-view, diverse-scene, and task-specific high-resolution images fro
 
 <div align="center">
   <a href="https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights" name="huggingface_model_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Model-ffbd45.svg" alt="HuggingFace Model"></a>
-  <!-- <a href="https://huggingface.co/spaces/YOUR_ORG/ZenCtrl" name="huggingface_space_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space"></a> -->
+  <a href="https://huggingface.co/spaces/fotographerai/ZenCtrl" name="huggingface_space_link"><img src="https://img.shields.io/badge/🤗_HuggingFace-Space-ffbd45.svg" alt="HuggingFace Space"></a>
   <a href="https://discord.com/invite/b9RuYQ3F8k" name="discord_link"><img src="https://img.shields.io/badge/Discord-Join-7289da.svg?logo=discord" alt="Discord"></a>
   <a href="https://fotographer.ai/" name="lp_link"><img src="https://img.shields.io/badge/Website-Landing_Page-blue" alt="LP"></a>
   <a href="https://x.com/FotographerAI" name="twitter_link"><img src="https://img.shields.io/twitter/follow/FotographerAI?style=social" alt="X"></a>
