@@ -35,6 +35,53 @@ Generate multi-view, diverse-scene, and task-specific high-resolution images fro
 
 ZenCtrl is based on OminiControl but enhanced with more fine-grained control, consistent subject preservation, and more improved and ready-to-use models. Our goal is to build an **agentic visual generation system** that can orchestrate image/video creation from **LLM-driven recipes.**
 
+<div align="center">
+  <div>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_1.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_1.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_1.png"  width="24%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_2.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_2.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_2.png"  width="24%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_1.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_1.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_1.png"  width="24%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_2.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_2.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_2.png"  width="24%"/>
+    </picture>
+  </div>
+  <div>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_1.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_1.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_1.png"  width="24%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_2.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_2.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_2.png"  width="24%" />
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_1.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_1.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_1.png"  width="24%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_2.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_2.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_2.png"  width="24%" />
+    </picture>
+  </div>
+</div>
+
 ---
 
 ## 🛠 Toolkit Components (coming soon)
@@ -109,7 +156,36 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🎨 Demo
 
-> 🧪 Try it now on [Hugging Face Space](https://huggingface.co/spaces/YOUR_ORG/ZenCtrl)
+#### Examples
+
+<div align="center">
+  <div>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/car.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/car.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/car.png"  width="49%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/model.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/model.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/model.png"  width="49%"/>
+    </picture>
+  </div>
+  <div>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/yellow_chair.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/yellow_chair.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/yellow_chair.png"  width="49%"/>
+    </picture>
+    <picture>
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/assets/github/im4_1.avif" type="image/avif" />
+      <source srcset="https://storage.googleapis.com/fotographer-cdn/assets/github/im4_1.webp" type="image/webp" />
+      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/assets/github/im4_1.png"  width="49%" />
+    </picture>
+  </div>
+</div>
+
+### 🧪 Try it now on [Hugging Face Space](https://huggingface.co/spaces/fotographerai/ZenCtrl)
 
 <!--
 | Input Image | Generated Image |
@@ -122,11 +198,11 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🔧 Models (Initial Weights Released)
 
-| Type                  | Name  | Base         | Resolution | Description                       | links                                           |
-| --------------------- | ----- | ------------ | ---------- | --------------------------------- | ----------------------------------------------- |
-| Bg generation Model   | `tbd` | FLUX.1       | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
-| Bg generation + Canny | `tbd` | FLUX.1       | 1024x1024  | Enhanced background control       | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
-| Deblurring Model      | `tbd` | OminiControl | 1024x1024  | Quality recovery post-generation  | [link](https://huggingface.co/YOUR_ORG/ZenCtrl) |
+| Type                  | Name                  | Base         | Resolution | Description                       | links                                                      |
+| --------------------- | --------------------- | ------------ | ---------- | --------------------------------- | ---------------------------------------------------------- |
+| Subject Generation    | `subject_99000_512`   | FLUX.1       | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/fotographerai/zenctrl_tools) |
+| Bg generation + Canny | `bg_canny_58000_1024` | FLUX.1       | 1024x1024  | Enhanced background control       | [link](https://huggingface.co/fotographerai/zenctrl_tools) |
+| Deblurring Model      | `deblurr_1024_10000`  | OminiControl | 1024x1024  | Quality recovery post-generation  | [link](https://huggingface.co/fotographerai/zenctrl_tools) |
 
 ---
 
@@ -157,7 +233,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 - 💬 [Discord](https://discord.com/invite/b9RuYQ3F8k) – share ideas and feedback
 - 🌐 [Landing Page](https://fotographer.ai)
-- 🧪 [Try it now on Hugging Face Space (release on 2025/03/28 PST)](https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights)
+- 🧪 [Try it now on Hugging Face Space](https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights)
 <!-- - 🧠 [Blog]() -->
 
 ---
