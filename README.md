@@ -95,7 +95,7 @@ ZenCtrl is based on OminiControl but enhanced with more fine-grained control, co
 
 ### 🎮 Control Models
 
-- Shape (Canny, HED, Scribble, Depth)
+- Shape (HED, Scribble, Depth)
 - Pose (OpenPose, DensePose)
 - Mask control
 - Camera/View control
@@ -142,7 +142,8 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 ## 📢 News
 
 - **2025-03-24**: 🧠 First release — model weights available on Hugging Face!
-- **Coming Soon**: Source code release, Quick Start guide, Example notebooks
+- **2025-05-06**: 📢 Update — ource code release, latest model weights available on Hugging Face!
+- **Coming Soon**: Quick Start guide, Upscaling source code, Example notebooks
 - **Next**: Controlled fine-grain version on our platform and API (Pro version)
 - **Future**: Video generation toolkit release
 
@@ -196,7 +197,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ---
 
-## 🔧 Models (Initial Weights Released)
+## 🔧 Models (Updated Weights Released)
 
 | Type                  | Name                  | Base         | Resolution | Description                       | links                                                      |
 | --------------------- | --------------------- | ------------ | ---------- | --------------------------------- | ---------------------------------------------------------- |
@@ -219,8 +220,9 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 ## 📋 To-do
 
 - [x] Release early pretrained model weights for defined tasks
-- [ ] Release additional task-specific models and modes
-- [ ] Release open source code (coming soon)
+- [x] Release additional task-specific models and modes
+- [x] Release open source code
+- [x] Launch API access via Baseten for easier deployment
 - [ ] Release Quick Start guide and example notebooks
 - [ ] Launch API access via our app and Baseten for easier deployment
 - [ ] Release high-resolution models (1500×1500+)
