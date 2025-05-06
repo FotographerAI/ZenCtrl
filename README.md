@@ -1,12 +1,6 @@
 <div align="center">
   <a href="https://fotographer.ai/zen-control">
-    <picture>
-      <source media="(max-width: 424px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_sm.avif" type="image/avif">
-      <source media="(min-width: 425px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.avif" type="image/avif">
-      <source media="(max-width: 424px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_sm.webp" type="image/webp">
-      <source media="(min-width: 425px" srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.webp" type="image/webp">
-      <img alt="ZenCtrl Banner" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner.png" />
-    </picture>
+    <img src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_1.png" alt="ZenCtrl Banner" />
   </a>
   <h1>ZenCtrl</h1>
 </div>
@@ -151,7 +145,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🚀 Quick Start
 
-> 🚧 Coming Soon: Setup instructions & example notebooks.
+Before running the gradio code, please install the requirements and download the weights from our HuggingFace repository (https://huggingface.co/fotographerai/zenctrl_tools).We matched our original code witht the Ominicontrol structure. Our model takes two inputs instead but we are going to release the original code soon with the Llama task driver so stay tuned. we will update the tasks for specific verticals (virtual try-on etc...)
 
 ---
 
@@ -201,7 +195,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 | Type                  | Name                  | Base         | Resolution | Description                       | links                                                      |
 | --------------------- | --------------------- | ------------ | ---------- | --------------------------------- | ---------------------------------------------------------- |
-| Subject Generation    | `subject_99000_512`   | FLUX.1       | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/fotographerai/zenctrl_tools) |
+| Subject Generation    | `zen2con_1440_17000`   | FLUX.1       | 1024x1024  | Core model for subject-driven gen | [link](https://huggingface.co/fotographerai/zenctrl_tools/tree/main/weights/zen2con_1440_17000) |
 | Bg generation + Canny | `bg_canny_58000_1024` | FLUX.1       | 1024x1024  | Enhanced background control       | [link](https://huggingface.co/fotographerai/zenctrl_tools) |
 | Deblurring Model      | `deblurr_1024_10000`  | OminiControl | 1024x1024  | Quality recovery post-generation  | [link](https://huggingface.co/fotographerai/zenctrl_tools) |
 
@@ -224,7 +218,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 - [x] Release open source code
 - [x] Launch API access via Baseten for easier deployment
 - [ ] Release Quick Start guide and example notebooks
-- [ ] Launch API access via our app and Baseten for easier deployment
+- [ ] Launch API access via our app for easier deployment
 - [ ] Release high-resolution models (1500×1500+)
 - [ ] Enable full toolkit integration with agent API
 - [ ] Add video generation module
