@@ -145,7 +145,7 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🚀 Quick Start
 
-We matched our original code witht the Ominicontrol structure. Our model takes two inputs instead but we are going to release the original code soon with the Llama task driver so stay tuned. we will update the tasks for specific verticals (virtual try-on etc...)
+Before running the gradio code, please install the requirements and download the weights from our HuggingFace repository (https://huggingface.co/fotographerai/zenctrl_tools).We matched our original code witht the Ominicontrol structure. Our model takes two inputs instead but we are going to release the original code soon with the Llama task driver so stay tuned. we will update the tasks for specific verticals (virtual try-on etc...)
 
 ---
 
