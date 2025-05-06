@@ -1,0 +1,9 @@
+transformers
+diffusers==0.31.0
+peft==0.15.2
+opencv-python
+protobuf
+sentencepiece
+gradio
+jupyter
+torchao
