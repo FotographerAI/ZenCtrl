@@ -30,50 +30,9 @@ Generate multi-view, diverse-scene, and task-specific high-resolution images fro
 ZenCtrl is based on OminiControl but enhanced with more fine-grained control, consistent subject preservation, and more improved and ready-to-use models. Our goal is to build an **agentic visual generation system** that can orchestrate image/video creation from **LLM-driven recipes.**
 
 <div align="center">
-  <div>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_1.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_1.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_1.png"  width="24%"/>
-    </picture>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_2.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_2.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/bottle_2.png"  width="24%"/>
-    </picture>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_1.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_1.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_1.png"  width="24%"/>
-    </picture>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_2.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_2.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/speaker_2.png"  width="24%"/>
-    </picture>
-  </div>
-  <div>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_1.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_1.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_1.png"  width="24%"/>
-    </picture>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_2.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_2.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/chair_2.png"  width="24%" />
-    </picture>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_1.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_1.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_1.png"  width="24%"/>
-    </picture>
-    <picture>
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_2.avif" type="image/avif" />
-      <source srcset="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_2.webp" type="image/webp" />
-      <img alt="bottle on top of a rock" src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/handcream_2.png"  width="24%" />
-    </picture>
-  </div>
+  <a href="https://fotographer.ai/zen-control">
+    <img src="https://storage.googleapis.com/fotographer-cdn/app-static-assets/zen_ctrl/banner_3.png" alt="ZenCtrl Collage" style="width:100%; max-width:960px;" />
+  </a>
 </div>
 
 ---
