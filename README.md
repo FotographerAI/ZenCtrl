@@ -104,7 +104,50 @@ All of these tasks can be **mixed and layered** — ZenCtrl is designed to suppo
 
 ## 🚀 Quick Start
 
-Before running the gradio code, please install the requirements and download the weights from our HuggingFace repository (https://huggingface.co/fotographerai/zenctrl_tools) . We matched our original code witht the Ominicontrol structure. Our model takes two inputs instead but we are going to release the original code soon with the Llama task driver so stay tuned. we will update the tasks for specific verticals (virtual try-on etc...)
+Before running the Gradio code, please install the requirements and download the weights from our HuggingFace repository:  
+👉 [https://huggingface.co/fotographerai/zenctrl_tools](https://huggingface.co/fotographerai/zenctrl_tools)
+
+We matched our original code with the Omnicontrol structure. Our model takes two inputs instead, but we are going to release the original code soon with the LLaMA task driver — so stay tuned. We will also update the tasks for specific verticals (e.g., virtual try-on, ad creatives, etc.).
+
+---
+
+### Quick Setup (CMD)
+
+You can follow the step-by-step setup instructions below:
+
+```cmd
+
+
+*** Cloning and setting up ZenCtrl
+git clone https://github.com/FotographerAI/ZenCtrl.git
+cd ZenCtrl
+
+*** Creating virtual environment
+python -m venv venv
+call venv\Scripts\activate.bat
+
+*** Installing core dependencies
+pip install --upgrade pip wheel setuptools
+
+*** Installing PyTorch with CUDA 12.8
+pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+
+
+***Installing project requirements
+pip install -r requirements.txt
+
+***Downloading model weights
+mkdir weights\zen2con_1440_17000
+curl -L https://huggingface.co/fotographerai/zenctrl_tools/resolve/main/weights/zen2con_1440_17000/pytorch_lora_weights.safetensors -o weights\zen2con_1440_17000\pytorch_lora_weights.safetensors
+
+***Fixing LoRA weights path in Gradio app
+echo with open('app/gradio_app.py','r') as f: t=f.read().replace('path/to/weight/pytorch_lora_weights.safetensors','weights/zen2con_1440_17000/pytorch_lora_weights.safetensors'); open('app/gradio_app.py','w').write(t) > fix.py
+python fix.py
+del fix.py
+
+***All set! Launching Gradio app
+python app/gradio_app.py
+```
 
 ---
 
