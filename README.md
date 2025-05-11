@@ -124,15 +124,15 @@ cd ZenCtrl
 python -m venv venv
 call venv\Scripts\activate.bat
 
-***Installing PyTorch and requirements
+*** Installing PyTorch and requirements
 pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
 pip install --upgrade pip wheel setuptools
 pip install -r requirements.txt
 
-***Downloading model weights
+*** Downloading model weights
 curl --create-dirs -L https://huggingface.co/fotographerai/zenctrl_tools/resolve/main/weights/zen2con_1440_17000/pytorch_lora_weights.safetensors -o weights\zen2con_1440_17000\pytorch_lora_weights.safetensors
 
-***All set! Launching Gradio app
+*** All set! Launching Gradio app
 python app/gradio_app.py
 ```
 
