@@ -5,6 +5,7 @@ import torch
 from PIL import Image
 from diffusers.pipelines import FluxPipeline
 from diffusers import FluxTransformer2DModel
+from huggingface_hub import hf_hub_download
 
 from flux.condition import Condition
 from flux.generate import generate
@@ -37,9 +38,8 @@ def init_pipeline():
         )
     pipe = pipe.to("cuda")
     
-
     # Optional: Load additional LoRA weights, put the loaded weigths here!
-    pipe.load_lora_weights("path/to/weight/pytorch_lora_weights.safetensors",
+    pipe.load_lora_weights("weights/zen2con_1440_17000/pytorch_lora_weights.safetensors",
         adapter_name="subject")
     pipe.set_adapters(["subject"])
     
