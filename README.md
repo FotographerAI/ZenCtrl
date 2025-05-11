@@ -140,11 +140,6 @@ pip install -r requirements.txt
 mkdir weights\zen2con_1440_17000
 curl -L https://huggingface.co/fotographerai/zenctrl_tools/resolve/main/weights/zen2con_1440_17000/pytorch_lora_weights.safetensors -o weights\zen2con_1440_17000\pytorch_lora_weights.safetensors
 
-***Fixing LoRA weights path in Gradio app
-echo with open('app/gradio_app.py','r') as f: t=f.read().replace('path/to/weight/pytorch_lora_weights.safetensors','weights/zen2con_1440_17000/pytorch_lora_weights.safetensors'); open('app/gradio_app.py','w').write(t) > fix.py
-python fix.py
-del fix.py
-
 ***All set! Launching Gradio app
 python app/gradio_app.py
 ```
