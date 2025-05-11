@@ -5,7 +5,6 @@ import torch
 from PIL import Image
 from diffusers.pipelines import FluxPipeline
 from diffusers import FluxTransformer2DModel
-from huggingface_hub import hf_hub_download
 
 from flux.condition import Condition
 from flux.generate import generate
