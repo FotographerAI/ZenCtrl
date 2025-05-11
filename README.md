@@ -116,8 +116,6 @@ We matched our original code with the Omnicontrol structure. Our model takes two
 You can follow the step-by-step setup instructions below:
 
 ```cmd
-
-
 *** Cloning and setting up ZenCtrl
 git clone https://github.com/FotographerAI/ZenCtrl.git
 cd ZenCtrl
@@ -126,26 +124,15 @@ cd ZenCtrl
 python -m venv venv
 call venv\Scripts\activate.bat
 
-*** Installing core dependencies
-pip install --upgrade pip wheel setuptools
-
-*** Installing PyTorch with CUDA 12.8
+*** Installing PyTorch and requirements
 pip install torch==2.7.0+cu128 torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
-
-
-***Installing project requirements
+pip install --upgrade pip wheel setuptools
 pip install -r requirements.txt
 
-***Downloading model weights
-mkdir weights\zen2con_1440_17000
-curl -L https://huggingface.co/fotographerai/zenctrl_tools/resolve/main/weights/zen2con_1440_17000/pytorch_lora_weights.safetensors -o weights\zen2con_1440_17000\pytorch_lora_weights.safetensors
+*** Downloading model weights
+curl --create-dirs -L https://huggingface.co/fotographerai/zenctrl_tools/resolve/main/weights/zen2con_1440_17000/pytorch_lora_weights.safetensors -o weights\zen2con_1440_17000\pytorch_lora_weights.safetensors
 
-***Fixing LoRA weights path in Gradio app
-echo with open('app/gradio_app.py','r') as f: t=f.read().replace('path/to/weight/pytorch_lora_weights.safetensors','weights/zen2con_1440_17000/pytorch_lora_weights.safetensors'); open('app/gradio_app.py','w').write(t) > fix.py
-python fix.py
-del fix.py
-
-***All set! Launching Gradio app
+*** All set! Launching Gradio app
 python app/gradio_app.py
 ```
 

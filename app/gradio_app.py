@@ -37,9 +37,8 @@ def init_pipeline():
         )
     pipe = pipe.to("cuda")
     
-
     # Optional: Load additional LoRA weights, put the loaded weigths here!
-    pipe.load_lora_weights("path/to/weight/pytorch_lora_weights.safetensors",
+    pipe.load_lora_weights("weights/zen2con_1440_17000/pytorch_lora_weights.safetensors",
         adapter_name="subject")
     pipe.set_adapters(["subject"])
     
