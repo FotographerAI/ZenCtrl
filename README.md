@@ -15,6 +15,9 @@ Generate multi-view, diverse-scene, and task-specific high-resolution images fro
   <a href="https://fotographer.ai/zen-control" name="lp_link"><img src="https://img.shields.io/badge/Website-Landing_Page-blue" alt="LP"></a>
   <a href="https://x.com/FotographerAI" name="twitter_link"><img src="https://img.shields.io/twitter/follow/FotographerAI?style=social" alt="X"></a>
 </div>
+<div align="center" style="line-height: 1; margin-top: 16px;">
+    <a href="https://www.producthunt.com/products/zenctrl?embed=true&utm_source=badge-featured&utm_medium=badge&utm_source=badge-zenctrl" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=969113&theme=light&t=1749428880088" alt="ZenCtrl - Framework&#0032;to&#0032;generate&#0032;multi&#0045;view&#0032;images | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+</div>
 
 ---
 
